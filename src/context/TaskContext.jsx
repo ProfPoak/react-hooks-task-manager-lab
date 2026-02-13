@@ -56,7 +56,7 @@ export function TaskProvider({ children }) {
             }
         })
         .then(returnedTask => {
-            setTasks(prevTasks => [...prevTasks, returnedTasks])
+            setTasks(prevTasks => [...prevTasks, returnedTask])
         })
         .catch(error => console.log(error))
     }

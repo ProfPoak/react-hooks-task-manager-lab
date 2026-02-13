@@ -10,8 +10,6 @@ function TaskForm() {
     e.preventDefault();
     if (taskName.trim() === "") return;
     setTaskName("");
-
-      addTask()
   }
 
   return (
