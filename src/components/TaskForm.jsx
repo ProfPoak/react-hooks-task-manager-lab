@@ -9,6 +9,7 @@ function TaskForm() {
   function handleSubmit(e) {
     e.preventDefault();
     if (taskName.trim() === "") return;
+    addTask(taskName);
     setTaskName("");
   }
 
