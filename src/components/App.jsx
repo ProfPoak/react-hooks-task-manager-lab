@@ -10,7 +10,7 @@ function App() {
     fetch(`${serverUrl}`)
     .then(r=>r.json())
     .then(data=>setTasks(data))
-    
+    .catch(error => console.log(error))
   }, []);
 
   return (

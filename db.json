@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Buy groceries",
-      "completed": true
+      "completed": false
     },
     {
       "id": "2",
@@ -28,7 +28,7 @@
     {
       "id": "a51b",
       "title": "Finish the lab",
-      "completed": false
+      "completed": true
     }
   ]
 }
